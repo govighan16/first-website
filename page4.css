@@ -1,0 +1,74 @@
+nav {
+    border-bottom: 1px solid black;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.pages ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.page {
+    display: inline-block;
+    padding-left: 80px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.legends-grid {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat(3, fr);
+    grid-gap: 20px;
+
+}
+
+.legend {
+    /* grid-column: 1/2;
+    grid-row: 1/1;
+    height: 15%;
+    width: 15%; */
+    text-align: center;
+
+}
+
+h3 {
+    color: #034694;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+#drogba {
+    grid-column: 2/2;
+    grid-row: 1/2; 
+}
+
+#mount {
+    grid-column: 2/2;
+    grid-row: 2/3;
+}
+
+#cech {
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.legend img {
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+}
+
+.legend h3 {
+    margin-top: 10px;
+}
